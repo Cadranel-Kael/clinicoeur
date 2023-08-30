@@ -1,0 +1,39 @@
+&__help {
+  margin-top: 5rem;
+  @media (min-width: 800px) {
+    margin-top: 10rem;
+  }
+  .help {
+    &__title {
+      text-align: center;
+      font-size: 1rem;
+      @media (min-width: 800px) {
+        font-size: 2.625rem;
+      }
+    }
+    &__list {
+      margin-top: 4rem;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      @media (min-width: 800px) {
+        flex-direction: initial;
+      }
+      &__item {
+        background: #23aaaf;
+        border-radius: 100rem;
+        text-align: center;
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 1rem;
+          height: 10rem;
+          width: 10rem;
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

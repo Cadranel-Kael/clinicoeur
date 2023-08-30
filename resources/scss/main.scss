@@ -1,0 +1,19 @@
+@import "utils/fonts";
+@import "utils/reset";
+@import "utils/utils";
+
+* {
+  font-family: Soleil, sans-serif;
+}
+
+body {
+  background: #FAF4E7;
+  max-width: 2000px;
+}
+
+h1, h2, h3 {
+  font-family: "South Belgian", sans-serif;
+}
+
+@import "nav/nav";
+@import "front/front";
